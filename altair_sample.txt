@@ -6,15 +6,15 @@ Altair Contact Information
 Order Date
 June 4, 2019
 Consultant Contact Info
-Tiffany Bollinger
-+1 925  287 6811 
-tiffany.bollinger@altairglobal.com
+Linda Trotter
++1 972 468 3300 
+linda.trotter@altairglobal.com
 Service Provider Name
 Altair Move Management
 Associate Contact Info
-Amanda Taylor
-+1 925 287 6871
-amanda.taylor@altairglobal.com
+Nathan Harris
++1 972 468 3275
+nathan.harris@altairglobal.com
 Altair Provider Number
 1915
 
@@ -24,8 +24,8 @@ HHG Initiations HHG Initiations
 Office Phone:   +1 972 468 3294 
 E-mail:  Move.Management@altairglobal.com 
 Consultant Office Location
-201 N. Civic Drive, Suite 240
-Walnut Creek, California 94596 
+7500 Dallas Parkway, Suite 300
+Plano, Texas 75024 
 United States
 Employee Information
 Client VIP?
@@ -33,11 +33,11 @@ No
 Altair VIP?
 No
 First Name
-Tarun 
+Alex 
 Last Name
-Singh
+Polak
 E-mail Address
-tarun16@gmail.com
+apolak16@gmail.com
 Other E-mail
 
 Homeowner
@@ -51,7 +51,7 @@ Country of Birth
 Date of Birth
 
 Marital Status
-Married
+Single
 Visa Status
 
 Has Passport?
@@ -62,13 +62,13 @@ Passport Expiration Date
 
 Origin Address
 Destination Address
-14304 Goodrow Ct  - Princeton, New Jersey United States 08540 
-1101 Dexter Ave N  - Seattle, Washington United States 98109 
+8025 Kayladine Lane - Fulton City, Maryland United States 
+1900 16th St Ste. 700  - Denver, Colorado United States 80202 
 Contact 
 Primary Phone:
 Home Phone:  
 Office Phone:  
-Mobile Phone: 2063709903 
+Mobile Phone: 8609954954 
 Home Phone: 
 Office Phone:  
 Mobile Phone:  
@@ -134,9 +134,9 @@ Assignment Information
 Company Name
 Facebook
 Policy
-New Hire: Emp, Spouse/Dom Partner + Children
+New Hire: Employee Only
 Altair File Number
-2019-19195
+2019-19208
 Assignment Start Date
 August 5, 2019
 Modified End Date
@@ -145,11 +145,11 @@ Scheduled End Date
 
 Survey Information
 Host Country Family Size
-4
+1
 EE Type
 Management
 Cap Inform
-12,000 lbs
+4000 lbs
 
 Service Coordination Requested
 Service 
@@ -159,14 +159,14 @@ Air Shipment
        (Size/Weight Limit)
 Automobile
 
-2  (Number of Autos)
+1  (Number of Autos)
 Insurance Coverage
 
       Amount of Coverage (including currency)
 Yes        No  
 In-Transit Storage
 
-56 days  (Size/Weight/Time Limits)
+30 days  (Size/Weight/Time Limits)
 Permanent Storage
 
        (Size/Weight/Time Limits)
@@ -175,12 +175,11 @@ Pet Shipment
        (Type of Pet/Weight of Pet/Carrier Dimensions/Carrier Weight)
 Surface Shipment
 
-12,000 lbs  (Size/Weight Limit)
+4000 LBS  (Size/Weight Limit)
 Special Instructions 
-HHG: 12,000lbs. 56 days of storage – 3rd floor 2 bedroom apartment, no elevator. King size bed with custom made frame from India, 2 kids beds, couches, dining table with 4 chairs and glass table top, side tables, Armoire, 1 large art piece. **Pack and date June 30th**
+HHG (4,000 lbs): (any stairs, parking on street) July 29 – 1b/1b slightly furnished  bedroom set, tv, clothes 
 
-Vehicle: 2018 Tesla Model 3
-From Plus Budget: 2nd Vehicle: 2011 Toyota
+Auto: yes – July 29 – Volkswagen Jetta 2014 
 
 
 
@@ -188,9 +187,9 @@ IMPORTANT INVOICE INSTRUCTIONS
 
 Please include the following information on all invoices to expedite processing and payment:
 
-    • Customer First and Last Name: Tarun Singh 
+    • Customer First and Last Name: Alex Polak 
     • Customer Company Name: Facebook
-    • Customer Altair File Number: 2019-19195
+    • Customer Altair File Number: 2019-19208
     • Your Altair Provider Number: 1915
     • Service Description and Service Date (s)
     • Payment instructions
