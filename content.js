@@ -15,9 +15,15 @@ function get_altair_info(content) {
         index++;
     }
 
+    // given a target, returns the line [distance] lines
+    // after the target.  For example, consider:
+    //   DATE OF BIRTH
+    //   January 24th, 2000
+    // nextline_n("DATE OF BIRTH", 1); // January 24th, 2000
     var nextline_n = function(target, distance) {
         for (var i = 0; i < lines.length; i++) {
-            if (lines[i] == target && i < lines.length - 1) {
+        	var substr = lines[i].slice(0, target.length);
+            if (substr == target) {
                 return lines[i + distance];
             }
         }
@@ -28,21 +34,41 @@ function get_altair_info(content) {
         return nextline_n(target, 1);
     }
 
+    var colon_field = function(target) {
+    	for (var i = 0; i < lines.length; i++) {
+    		var substr = lines[i].substring(0, lines.length + 1);
+    		var colon = lines[i].charAt(lines.length + 1);
+    		if (substr == target && colon == ':') {
+    			return lines[i].substring(lines.length + 2);
+    		}
+    	}
+    	return "";
+    }
+
+    var full_name = nextline("Name:");
+
     return {
-        "client_first_name": nextline("First Name"),
-        "client_last_name":  nextline("Last Name"),
-        "client_email":      nextline("E-mail Address"),
+        "client_first_name": full_name.split(" ")[0],
+        "client_last_name":  full_name.split(" ")[1],
+        "client_email":      nextline("Email:"),
         "altair_fileno":     nextline("Altair File Number"),
         "origin_addr":       nextline_n("Origin Address", 2),
         "destination_addr":  nextline_n("Destination Address", 2),
-        "company_name":      nextline("Company Name")
+        "company_name":      nextline("Company:"),
+        "mobile_phone":      colon_field("Mobile Phone")
     }
 }
 
 function push_information(info) {
+	console.log(info.company_name + "!");
     $('[name="LastName"]').val(info.client_last_name).change();
     $('[name="FirstName"]').val(info.client_first_name).change();
-    $("#ClientId").val("1142").change();
+    $('[name="CompanyName"]').val(info.company_name).change();
+    $('[name="EmailAddress"]').val(info.client_email).change();
+    $('[name="ClientId"').val("1142").change();
+
+    // force FormalName to update
+   	$('[name="FormalName"]').val(info.client_first_name + " " + info.client_last_name).change();
 }
 
 if (location == new_relo_tab) {
@@ -68,6 +94,7 @@ if (location == new_relo_tab) {
         reader.readAsText(file, "UTF-8");
         reader.onload = readerEvent => {
             var content = readerEvent.target.result;
+            console.log(content);
             push_information(get_altair_info(content));
         }
     }
